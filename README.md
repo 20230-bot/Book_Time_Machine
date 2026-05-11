@@ -109,7 +109,6 @@ Users can:
 * ✔ Damage detection (heatmap)
 * ✔ OCR text extraction
 * ✔ Visual analytics dashboard
-* ✔ Interactive Streamlit UI
 
 ---
 
@@ -138,76 +137,4 @@ Users can:
 The **Book Time Machine** transforms damaged historical documents into readable digital content while visually explaining every step of the AI process.
 
 ---
-
-## 📁 Project Structure
-
-```bash id="k8p1aa"
-Book-Time-Machine/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── config/
-│   ├── paths.py
-│   ├── settings.py
-│   └── constants.py
-│
-├── data/
-│   ├── raw/
-│   │   ├── historical_docs/
-│   │   ├── damage_dataset/
-│   │   │   ├── blur/
-│   │   │   ├── fade/
-│   │   │   ├── noise/
-│   │   │   └── stain/
-│   │   └── ocr_dataset/
-│   │       ├── images/
-│   │       └── labels/
-│   └── processed/
-│
-├── src/
-│   ├── core/
-│   │   ├── preprocessing.py
-│   │   ├── restoration.py
-│   │   ├── damage_analysis.py
-│   │   ├── ocr_engine.py
-│   │   └── pipeline.py
-│
-│   ├── evaluation/
-│   │   ├── image_metrics.py
-│   │   ├── ocr_metrics.py
-│   │   └── evaluator.py
-│
-│   ├── visualization/
-│   │   ├── plots.py
-│   │   ├── heatmaps.py
-│   │   └── comparison.py
-│
-│   ├── io/
-│   │   ├── loader.py
-│   │   ├── saver.py
-│   │   └── dataset.py
-│
-│   ├── utils/
-│   │   ├── logger.py
-│   │   └── helpers.py
-│
-├── scripts/
-│   └── organize_data.py
-│
-└── tests/
-```
----
-
-## 👨‍💻 Developer Notes
-
-> Built with passion for Computer Vision, AI, and Digital Preservation.
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub to support development!
-
 ---
